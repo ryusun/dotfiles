@@ -68,6 +68,6 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-Bundle 'Thinca/vim-ref'
+Bundle 'https://github.com/thinca/vim-ref.git'
 let g:ref_phpmanual_path = $HOME . '/dotfiles/vimfiles/refs/php-chunked-xhtml'
 
