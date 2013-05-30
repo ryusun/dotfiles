@@ -28,8 +28,11 @@ sudo mkdir $vimbk
 echo $manual_dir/php_manual_ja.tar
 
 echo Prepare php manual. refs by vim.
-[ -d $manual_dir/php_manual_ja ] || sudo tar -zxf $manual_php -C $manual_dir
+[ -d $manual_dir/php_chunked-xhtml ] || sudo tar -zxf $manual_php -C $manual_dir
 sudo chmod 644 $manual_dir
+
+cd $dots
+sudo git submodule update --init
 
 own=`whoami`
 
