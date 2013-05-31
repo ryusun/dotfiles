@@ -71,3 +71,7 @@ set statusline+=%*
 Bundle 'https://github.com/thinca/vim-ref.git'
 let g:ref_phpmanual_path = $HOME . '/dotfiles/vimfiles/refs/php-chunked-xhtml'
 
+Bundle 'https://github.com/wesleyche/SrcExpl.git'
+Bundle 'https://github.com/scrooloose/nerdtree.git'
+Bundle 'https://github.com/wesleyche/Trinity.git'
+Bundle 'taglist.vim'
